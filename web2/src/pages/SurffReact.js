@@ -10,7 +10,7 @@ const SurffReact = () => {
                 <div className="row row-cols-1 row-cols-md-2 g-4 m-2 border p-2">
                     <div className="col">
                         <div className="card">
-                            <img src="assets/images/service-imgs/equipoSurf.jpg" className="card-img-top" alt="..." />
+                            <img src="assets/images/service-imgs/equipoSurf.jpg" className="card-img-top" />
                             <div className="card-body">
                                 <h5 className="card-title">Surfear</h5>
                                 <p className="card-text">Le proveemos el equipo necesario para su aventura playera en alguna de
@@ -20,7 +20,7 @@ const SurffReact = () => {
                     </div>
                     <div className="col">
                         <div className="card">
-                            <img src="assets/images/service-imgs/tour.jpg" className="card-img-top" alt="..." />
+                            <img src="assets/images/service-imgs/tour.jpg" className="card-img-top" />
                             <div className="card-body">
                                 <h5 className="card-title">Tour costero</h5>
                                 <p className="card-text">Conozca bellas playas con los fabulosos tours que tenemos alrededor de
@@ -30,7 +30,7 @@ const SurffReact = () => {
                     </div>
                     <div className="col">
                         <div className="card">
-                            <img src="assets/images/service-imgs/voley-playa.jpg" className="card-img-top" alt="..." />
+                            <img src="assets/images/service-imgs/voley-playa.jpg" className="card-img-top" />
                             <div className="card-body">
                                 <h5 className="card-title">Deportes</h5>
                                 <p className="card-text">Ofrecemos la oportunidad de practicar diversos deportes en la arena como el
@@ -40,7 +40,7 @@ const SurffReact = () => {
                     </div>
                     <div className="col">
                         <div className="card">
-                            <img src="assets/images/service-imgs/delfines.jpg" className="card-img-top" alt="..." />
+                            <img src="assets/images/service-imgs/delfines.jpg" className="card-img-top" />
                             <div className="card-body">
                                 <h5 className="card-title">Delfines</h5>
                                 <p className="card-text">Se le ofrece ir en un catamarán a un área donde pueden ser encontrados delfines

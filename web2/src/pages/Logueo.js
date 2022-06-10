@@ -78,18 +78,18 @@ const Logueo = (props) => {
                 <Paper elevation={10} style={paperStyle}> 
                     <Grid align='center' >
                         <Avatar style ={avatarStyle}><LockOutlinedIcon/></Avatar>
-                        <h1>{isRegister ? "Sing Up" : "Sing In"}</h1>
+                        <h1>{isRegister ? "Sign Up" : "Sign In"}</h1>
                     </Grid>
                     <TextField id='emailField' variant="standard" label='email' placeholder='Enter e-mail' type='email' inputRef={email_user} fullWidth required/>
                     <TextField id='passwordField' variant="standard" label='password' placeholder='Enter password' type='password' inputRef={password_user} fullWidth required/>
                 
                     <br/>
                     <br/>
-                    <Button type='submit' color='primary' variant='contained' fullWidth onClick={submitHandler}>{isRegister ? "Sing Up" : "Sing In"}</Button>
+                    <Button type='submit' color='primary' variant='contained' fullWidth onClick={submitHandler}>{isRegister ? "Sign Up" : "Sign In"}</Button>
                     <br/>
                     <br/>
                     <Typography>{isRegister ? "Have an Account?" : "Don't Have an Account?"}</Typography>
-                    <Button type='submit' color='primary' variant='contained' fullWidth onClick={() => setIsResgister(!isRegister)}>{isRegister ? "Sing In" : "Sing Up For Free"}</Button>
+                    <Button type='submit' color='primary' variant='contained' fullWidth onClick={() => setIsResgister(!isRegister)}>{isRegister ? "Sign In" : "Sign Up For Free"}</Button>
                 </Paper>
             </Grid>
         </div>
