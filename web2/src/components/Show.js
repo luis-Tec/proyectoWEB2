@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { collection, getDocs, getDoc, deleteDoc, doc } from 'firebase/firestore'
 import { db } from '../fb'
+import Header from '../pages/Header'
+import Footer from '../pages/Footer'
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
 const MySwal = withReactContent(Swal)
@@ -52,6 +54,7 @@ const Show = () => {
 
   return (
     <>
+      <Header></Header>
       <div className='container'>
         <div className='row'>
           <div className='col'>
@@ -88,6 +91,7 @@ const Show = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   )
 }

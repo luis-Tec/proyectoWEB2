@@ -21,7 +21,6 @@ const Header = () => {
                         <button className='boton_nav'><Link className='link' to={'/showItems'}>Stock</Link></button>
                         <button className='boton_nav'><Link className='link' to={'/'}>Join</Link></button>
                         <button type="button" className="btn btn-danger btn-sm" onClick={closeSesion}>Log Out</button>
-
                     </div>
                 </nav>
             </div>
