@@ -1,6 +1,7 @@
 import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
 
+import {getFirestore} from '@firebase/firestore';
 
 export const app_db = firebase.initializeApp({
     "projectId": "proyectoweb2-bb384",
@@ -12,3 +13,4 @@ export const app_db = firebase.initializeApp({
     "messagingSenderId": "378616327460"
   });
 
+export const db = getFirestore(app_db);

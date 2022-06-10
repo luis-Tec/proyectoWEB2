@@ -15,7 +15,6 @@ function App() {
     })
   }, [])
   
-
   //nuevo return 
   return <>{usuario ? <RouterPages/> : <Logueo setUsuario={setUsuario}/> }</>
 

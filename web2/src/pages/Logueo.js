@@ -2,7 +2,7 @@ import React, {useRef, useState} from 'react';
 import { Avatar, Button, Grid, Paper, TextField, Typography,} from '@mui/material'
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import { app_db } from '../fb';
-
+import Show from '../components/Show';
 
 
 
