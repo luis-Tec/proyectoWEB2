@@ -12,13 +12,13 @@ export default function RouterPages() {
         <div>
             <Router>
                 <Routes>
-                    <Route path="/" element={<HomeReact/>} />
-                    <Route path="/gallery" element={<GalleryReact/>} />
-                    <Route path="/surff" element={<SurffReact/>} />
-                    <Route path="/crud" element={<Show/>}/>
-                    <Route path="/create" element={<Create/>}/>
-                    <Route path="/edit:id" element={<Edit/>}/>
-                    
+                    <Route path="/" element={<HomeReact />} />
+                    <Route path="/gallery" element={<GalleryReact />} />
+                    <Route path="/surff" element={<SurffReact />} />
+                    <Route path="/showItems" element={<Show />} />
+                    <Route path="/create" element={<Create />} />
+                    <Route path="/edit:id" element={<Edit />} />
+
                 </Routes>
             </Router>
         </div>
